@@ -1,0 +1,51 @@
+Nfc Corkboard
+----------------------------
+
+Every NFC tag you touch is saved as a new sticky note to your phone!
+Write back to the tag by simply touching the red flag of each note.
+
+Virtual Sticky Notes with NFC
+
+Nfc Corkboard combines reading and writing with the elegant metaphor
+of sticky notes appearing on a corkboard. Through swipe gestures,
+you can switch between different corkboards – you have one per
+day of the week.
+
+Every time you touch a tag, the contents of its NDEF message are
+parsed and appear as a new note on the current corkboard. You can
+freely move the notes around, edit their contents or drag them to
+the trash bin.
+
+To write the contents of a sticky note to another tag, simply touch
+the small red flag and touch the tag. The app will inform you when
+the tag has been successfully written!
+
+Supported NDEF Messages
+
+With Nfc Corkboard, you can read tags that contain Smart Posters,
+URLs, Text or business cards. Additionally, it can write the first
+three formats – the corresponding message type is chosen automatically.
+To create a Smart Poster, simply enter the URL, then a line feed and
+in the next line the title.
+
+If you touch a tag with the external RTD
+urn:nfc:ext:nokia.com:nfccorkboard, the application is automatically
+launched on the phone. You can also write an autostart tag directly
+from the app – just explore the default notes on the different
+corkboards for more information!
+
+For full control over the tag writing process and to read all details
+from tags, check out Nfc Interactor.
+
+Origins, Tutorial and License
+
+Nfc Corkboard is based on the Corkboards example of the Qt SDK, and is
+released under the same open source BSD license. It adds NFC reading &
+writing support, and fully optimizes the app for mobile phones.
+
+If you are interested in developing your own NFC app, take a look at
+the “NFC Development” slides hosted at Slideshare or at Nokia Developer.
+They contain a detailed step-by-step guide on how you can add NFC
+support to the Corkboards example.
+
+ -- Andreas Jakl <>  Mon, 25 Jul 2011 14:29:36 +0300

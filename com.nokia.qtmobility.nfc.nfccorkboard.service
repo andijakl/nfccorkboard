@@ -1,0 +1,4 @@
+[D-BUS Service]
+Name=com.nokia.qtmobility.nfc.nfccorkboard
+Exec=/usr/bin/invoker -S /opt/nfccorkboard/splash-nfccorkboard-p.png -L /opt/nfccorkboard/splash-nfccorkboard-l.png --type=e --single-instance /opt/nfccorkboard/bin/nfccorkboard
+User=user

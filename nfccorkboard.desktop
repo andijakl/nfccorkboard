@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Type=Application
+Terminal=false
+Name=NfcCorkboard
+Exec=/usr/bin/invoker -S /opt/nfccorkboard/splash-nfccorkboard-p.png -L /opt/nfccorkboard/splash-nfccorkboard-l.png --type=e --single-instance /opt/nfccorkboard/bin/nfccorkboard
+Icon=/usr/share/icons/hicolor/80x80/apps/nfccorkboard80.png
+X-Window-Icon=
+X-HildonDesk-ShowInToolbar=true
+X-Osso-Type=application/x-executable
